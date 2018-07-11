@@ -36,4 +36,5 @@ def turn(board)
     return move(board, index, token = "X")
   else return turn(board)
   end
+  display_board(board)
   end
